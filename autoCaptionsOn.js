@@ -13,6 +13,7 @@ videojs.registerPlugin('autoCaptionsOn', function() {
 
         // +++ Loop through captions +++
         for (var i = 0; i < (tracks.length); i++) {
+            console.log(tracks[i]);
             track_language = tracks[i].language.substr(0, 2);
 
       // +++ Set the default caption language +++
